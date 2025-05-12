@@ -8,13 +8,12 @@ import HeroSection from "./Layout/HeroSection"
 import Newsletter from "./Layout/Newsletter"
 import Testimonials from "./Layout/Testimonials"
 import TopBar from "./Layout/TopBar"
-
+import '../../App.css';
 function Home() {
  
     return (
         <>
-        <TopBar/>
-        <Header/>
+       
        <HeroSection/>
        <FeatureSection/>
        <CategoriesSection/>
