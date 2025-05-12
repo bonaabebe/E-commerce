@@ -26,7 +26,7 @@ This is a React-based e-commerce website featuring various product sections, cat
 To get started, you'll need the following installed:
 
 - [Node.js](https://nodejs.org/) (v14 or higher)
-- [npm](https://npmjs.com/) or [yarn](https://yarnpkg.com/) (for package management)
+- [npm](https://npmjs.com/) (for package management)
 
 ### Installation
 
