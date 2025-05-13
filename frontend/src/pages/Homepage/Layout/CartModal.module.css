@@ -1,0 +1,196 @@
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modalContent {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 700px;
+  }
+  
+  .modalHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+  }
+  
+  .modalHeader h2 {
+    margin: 0;
+  }
+  
+  .closeButton {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #777;
+  }
+  
+  .closeButton:hover {
+    color: #333;
+  }
+  
+  .modalBody {
+    /* Styles for the cart items */
+  }
+  
+  .cartList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .cartItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  
+  .cartItem:last-child {
+    border-bottom: none;
+  }
+  
+  .itemInfo {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+  }
+  
+  .itemImage {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    margin-right: 10px;
+    border-radius: 4px;
+  }
+  
+  .itemDetails {
+    flex-grow: 1;
+  }
+  
+  .itemName {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .itemPrice {
+    color: #888;
+  }
+  
+  .quantityControl {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+  }
+  
+  .quantityControl button {
+    background: none;
+    border: 1px solid #ccc;
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+  }
+  
+  .quantityControl span {
+    margin: 0 10px;
+  }
+  
+  .removeButton {
+    background: none;
+    border: 1px solid var(--danger-color); /* Use your theme's danger color */
+    color: var(--danger-color);
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-left: 15px;
+  }
+  
+  .removeButton:hover {
+    background-color: var(--danger-color);
+    color: white;
+  }
+  
+  .removeButton i {
+    margin-right: 5px;
+  }
+  
+  .modalFooter {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .total {
+    font-size: 1.1rem;
+  }
+  
+  .total strong {
+    font-weight: bold;
+  }
+  
+  .checkoutButton {
+    background-color: var(--primary-color); /* Use your theme's primary color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .checkoutButton:hover {
+    background-color: darken(var(--primary-color), 10%);
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+  }
+  
+  .pagination button {
+    background: none;
+    border: 1px solid #ccc;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 5px;
+  }
+  
+  .pagination button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  .pagination span {
+    margin: 0 10px;
+  }

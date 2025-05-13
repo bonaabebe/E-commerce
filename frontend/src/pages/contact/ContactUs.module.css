@@ -1,0 +1,148 @@
+/* src/pages/ContactUs.module.css */
+
+.contactUsPage {
+    padding: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .heroSection {
+    background-color: #f8f8f8;
+    padding: 80px 40px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 40px;
+  }
+  
+  .heroContent {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  .heroTitle {
+    font-size: 3em;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  .heroSubtitle {
+    font-size: 1.2em;
+    color: #555;
+  }
+  
+  .contactFormSection,
+  .contactInfoSection {
+    padding: 40px;
+    margin-bottom: 40px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  .sectionContent {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  .sectionTitle {
+    font-size: 2.2em;
+    color: #2c3e50;
+    margin-bottom: 25px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 15px;
+  }
+  
+  .contactForm {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .formGroup {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #34495e;
+  }
+  
+  .input,
+  .textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    color: #555;
+  }
+  
+  .textarea {
+    resize: vertical;
+  }
+  
+  .submitButton {
+    padding: 12px 24px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submitButton:hover {
+    background-color: #1e7e34;
+  }
+  
+  .submitButton:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .successMessage {
+    color: #28a745;
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+    padding: 15px;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+  
+  .errorMessage {
+    color: #dc3545;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    padding: 15px;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+  
+  .contactInfoList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contactInfoItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    color: #555;
+  }
+  
+  .contactInfoItem i {
+    font-size: 1.2em;
+    margin-right: 15px;
+    color: #007bff;
+    width: 20px; /* Adjust width for alignment */
+    text-align: center;
+  }
+  
+  .contactInfoItem span {
+    font-size: 1em;
+  }

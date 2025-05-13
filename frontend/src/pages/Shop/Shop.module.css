@@ -623,3 +623,23 @@ body {
 .filter-widget:nth-child(3) { animation-delay: 0.3s; }
 .filter-widget:nth-child(4) { animation-delay: 0.4s; }
 .filter-widget:nth-child(5) { animation-delay: 0.5s; }
+
+
+
+
+ .remove-from-cart {
+  background-color: #dc3545; /* Remove from cart button color (e.g., red) */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+.remove-from-cart:hover {
+  background-color: #c82333; /* Hover color for remove button */
+}
+
+/* ... other styles ... */

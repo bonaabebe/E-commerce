@@ -1,0 +1,149 @@
+/* src/pages/CategoryCard.module.css */
+
+.subcategoriesPage {
+    padding: 20px;
+  }
+  
+  .subcategoriesPage h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .subcategoriesGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Adjust minmax for card width */
+    gap: 20px;
+  }
+  
+  .subcategoryCard {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .subcategoryCard a {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .imageContainer {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1.33; /* Adjust aspect ratio for image */
+    overflow: hidden;
+  }
+  
+  .imageContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .subcategoryCard:hover .imageContainer img {
+    transform: scale(1.05);
+  }
+  
+  .subcategoryCard h3 {
+    padding: 15px;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .productPrice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .currentPrice {
+    font-weight: bold;
+    color: var(--primary-color, #007bff); /* Use your primary color variable or a default */
+    font-size: 1.1em;
+    margin-right: 10px;
+  }
+  
+  .originalPrice {
+    color: #777;
+    text-decoration: line-through;
+    font-size: 0.9em;
+  }
+  
+  .subcategoryCard:hover h3 {
+    color: var(--accent-color, #dc3545); /* Use your accent color variable or a default */
+  }
+
+
+  .subcategoriesPage {
+    padding: 20px;
+  }
+  
+  .subcategoriesPage h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .subcategoriesGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .subcategoryCard {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    background-color: #fff;
+  }
+  
+  .subcategoryCard a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: inherit;
+    height: 100%;
+  }
+  
+  .imageContainer {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1.5; /* Adjust as needed */
+    overflow: hidden;
+  }
+  
+  .imageContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .subcategoryCard:hover .imageContainer img {
+    transform: scale(1.05);
+  }
+  
+  .subcategoryCard h3 {
+    padding: 15px;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .subcategoryCard:hover h3 {
+    color: #007bff; /* Example hover color */
+  }

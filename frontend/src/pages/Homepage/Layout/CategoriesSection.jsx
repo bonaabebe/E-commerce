@@ -4,7 +4,7 @@ function CategoriesSection() {
         <div className="container">
           <div className="section-header">
             <h2 className="section-title">Shop by Category</h2>
-            <a href="Categories.html" className="view-all">View All</a>
+            <a href="/categories" className="view-all">View All</a>
           </div>
   
           <div className="categories-grid">

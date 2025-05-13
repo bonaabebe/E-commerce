@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Shop.module.css';
+import { Link } from 'react-router-dom';
 
 function FilterSidebar({
   categories,
@@ -20,7 +21,10 @@ function FilterSidebar({
       {/* Categories Filter */}
       <div className={styles['filter-widget']}>
         <div className={styles['widget-title']}>
+         
+          <Link to='/categories'>
           <h3>Categories</h3>
+          </Link>
           <i className="fas fa-chevron-down"></i>
         </div>
         <div className={styles['widget-content']}>
